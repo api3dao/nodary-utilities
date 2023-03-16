@@ -1,0 +1,24 @@
+{
+  "name": "@nodary/utilities",
+  "license": "MIT",
+  "version": "0.1.0",
+  "private": false,
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "yarn run prettier:check && yarn run lint:eslint",
+    "lint:eslint": "eslint . --ext .js,.ts",
+    "prettier:check": "prettier --check \"./**/*.{js,ts,md,json,sol}\"",
+    "prettier": "prettier --write \"./**/*.{js,ts,md,json,sol}\""
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "prettier": "^2.8.4"
+  },
+  "dependencies": {
+    "@api3/airnode-abi": "^0.10.0",
+    "ethers": "^6.1.0"
+  }
+}
