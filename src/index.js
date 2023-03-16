@@ -3,9 +3,11 @@ const airnodeAbi = require("@api3/airnode-abi");
 
 function computeEndpointId(endpointName) {
   const oisTitle = "Nodary";
-  return ethers.solidityPackedKeccak256(
-    ["string", "string"],
-    [oisTitle, endpointName]
+  return ethers.keccak256(
+    ethers.AbiCoder.defaultAbiCoder().encode(
+      ["string", "string"],
+      [oisTitle, endpointName]
+    )
   );
 }
 
@@ -13,7 +15,7 @@ function computeFeedId(feedName) {
   const endpointId = computeEndpointId("feed");
   const parameters = airnodeAbi.encode([
     {
-      name: "name",
+      name: "latestFeedValue",
       type: "string32",
       value: feedName,
     },
