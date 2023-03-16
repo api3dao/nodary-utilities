@@ -12,10 +12,10 @@ function computeEndpointId(endpointName) {
 }
 
 function computeFeedId(feedName) {
-  const endpointId = computeEndpointId("feed");
+  const endpointId = computeEndpointId("latestFeedValue");
   const parameters = airnodeAbi.encode([
     {
-      name: "latestFeedValue",
+      name: "name",
       type: "string32",
       value: feedName,
     },
