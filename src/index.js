@@ -1,7 +1,7 @@
 const ethers = require("ethers");
 const airnodeAbi = require("@api3/airnode-abi");
-
-const nodaryAirnodeAddress = "0xc52EeA00154B4fF1EbbF8Ba39FDe37F1AC3B9Fd4";
+const { deriveWalletAddressFromSponsorAddress } = require("./airnode");
+const { nodaryAirnodeAddress, nodaryXPub } = require("./metadata.json");
 
 function computeEndpointId(endpointName) {
   const oisTitle = "Nodary";
@@ -32,4 +32,30 @@ function computeFeedId(feedName) {
   );
 }
 
-module.exports = { nodaryAirnodeAddress, computeEndpointId, computeFeedId };
+function computeSponsorWalletAddress(
+  feedName,
+  deviationThreshold,
+  deviationReference,
+  heartbeatInterval
+) {
+  const feedId = computeFeedId(feedName);
+  const encodedConditionParameters = ethers.AbiCoder.defaultAbiCoder().encode(
+    ["uint256", "int224", "uint256"],
+    [deviationThreshold, deviationReference, heartbeatInterval]
+  );
+  const sponsorAddress = ethers
+    .solidityPackedKeccak256(
+      ["bytes32", "bytes"],
+      [feedId, encodedConditionParameters]
+    )
+    .substring(0, 42);
+  return deriveWalletAddressFromSponsorAddress(nodaryXPub, sponsorAddress);
+}
+
+module.exports = {
+  nodaryAirnodeAddress,
+  nodaryXPub,
+  computeEndpointId,
+  computeFeedId,
+  computeSponsorWalletAddress,
+};
