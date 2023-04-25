@@ -1,0 +1,426 @@
+[
+  {
+    "name": "AAVE/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "ADA/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "ALGO/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "ANKR/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "APE/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "API3/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "ATOM/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "AUD/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "AVAX/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "AXS/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "BAL/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "BAT/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "BIT/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "BNB/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "BRL/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "BTC/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "BTT/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "BUSD/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "CAD/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "CAKE/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "CELO/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "CHF/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "CHZ/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "CNY/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "COMP/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "CRO/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "CRV/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "CVX/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "DAI/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "DOGE/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "DOT/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "DYDX/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "ETH/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "EUL/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "EUR/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "FIL/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "FLOW/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "FRAX/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "FTM/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "FXS/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "GBP/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "GLMR/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "GMX/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "GNO/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "GRT/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "HBAR/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "HNT/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "HT/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "ICP/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "IMX/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "INR/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "JOE/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "JPY/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "KDA/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "KRW/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "KSM/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "LDO/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "LINK/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "LQTY/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "LTC/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "LUSD/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "MANA/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "MATIC/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "METIS/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "MIMATIC/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "MKR/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "MOVR/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "MXN/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "NEAR/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "NZD/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "OKB/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "OP/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "PAXG/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "PHP/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "QUICK/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "ROSE/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "RPL/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "RSR/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "RUNE/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "SAND/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "SEK/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "SGD/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "SHIB/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "SNX/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "SOL/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "STETH/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "STG/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "STMATIC/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "STX/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "SUSD/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "SUSHI/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "TRY/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "TUSD/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "UNI/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "USDC/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "USDP/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "USDT/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "WBTC/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "XLM/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "XMR/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "XRP/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "XTZ/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "YFI/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "ZAR/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "ZIL/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "ZRX/USD",
+    "deviationThresholdsInPercentages": [1]
+  }
+]

@@ -2,6 +2,7 @@ const ethers = require("ethers");
 const airnodeAbi = require("@api3/airnode-abi");
 const { deriveWalletAddressFromSponsorAddress } = require("./airnode");
 const { nodaryAirnodeAddress, nodaryXPub } = require("../data/metadata.json");
+const nodaryFeeds = require("../data/feeds.json");
 
 function computeEndpointId(endpointName) {
   const oisTitle = "Nodary";
