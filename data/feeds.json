@@ -24,6 +24,14 @@
     "deviationThresholdsInPercentages": [1]
   },
   {
+    "name": "APT/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "ARB/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
     "name": "ATOM/USD",
     "deviationThresholdsInPercentages": [1]
   },
@@ -44,11 +52,19 @@
     "deviationThresholdsInPercentages": [1]
   },
   {
+    "name": "BAND/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
     "name": "BAT/USD",
     "deviationThresholdsInPercentages": [1]
   },
   {
     "name": "BIT/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "BLUR/USD",
     "deviationThresholdsInPercentages": [1]
   },
   {
@@ -100,6 +116,10 @@
     "deviationThresholdsInPercentages": [1]
   },
   {
+    "name": "COP/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
     "name": "CRO/USD",
     "deviationThresholdsInPercentages": [1]
   },
@@ -125,6 +145,10 @@
   },
   {
     "name": "DYDX/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "ENS/USD",
     "deviationThresholdsInPercentages": [1]
   },
   {
@@ -248,6 +272,10 @@
     "deviationThresholdsInPercentages": [1]
   },
   {
+    "name": "MASK/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
     "name": "MATIC/USD",
     "deviationThresholdsInPercentages": [1]
   },
@@ -276,6 +304,10 @@
     "deviationThresholdsInPercentages": [1]
   },
   {
+    "name": "NGN/USD",
+    "deviationThresholdsInPercentages": [0.5]
+  },
+  {
     "name": "NZD/USD",
     "deviationThresholdsInPercentages": [0.5]
   },
@@ -297,6 +329,14 @@
   },
   {
     "name": "QUICK/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "RBN/USD",
+    "deviationThresholdsInPercentages": [1]
+  },
+  {
+    "name": "RNDR/USD",
     "deviationThresholdsInPercentages": [1]
   },
   {
@@ -370,6 +410,10 @@
   {
     "name": "TUSD/USD",
     "deviationThresholdsInPercentages": [0.5]
+  },
+  {
+    "name": "UMA/USD",
+    "deviationThresholdsInPercentages": [1]
   },
   {
     "name": "UNI/USD",
