@@ -1,7 +1,7 @@
 const ethers = require("ethers");
 const airnodeAbi = require("@api3/airnode-abi");
 const { deriveWalletAddressFromSponsorAddress } = require("./airnode");
-const { nodaryAirnodeAddress, nodaryXPub } = require("./metadata.json");
+const { nodaryAirnodeAddress, nodaryXPub } = require("../data/metadata.json");
 
 function computeEndpointId(endpointName) {
   const oisTitle = "Nodary";
@@ -55,6 +55,7 @@ function computeSponsorWalletAddress(
 module.exports = {
   nodaryAirnodeAddress,
   nodaryXPub,
+  nodaryFeeds,
   computeEndpointId,
   computeFeedId,
   computeSponsorWalletAddress,
