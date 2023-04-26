@@ -1,6 +1,11 @@
 {
   "name": "@nodary/utilities",
+  "description": "Utility functions for Nodary services",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodaryio/utilities.git"
+  },
   "version": "0.2.0",
   "private": false,
   "main": "src/index.js",
