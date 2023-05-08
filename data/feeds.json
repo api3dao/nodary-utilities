@@ -320,7 +320,15 @@
     "deviationThresholdsInPercentages": [0.25, 1]
   },
   {
+    "name": "OSMO/USD",
+    "deviationThresholdsInPercentages": [0.25, 1]
+  },
+  {
     "name": "PAXG/USD",
+    "deviationThresholdsInPercentages": [0.25, 1]
+  },
+  {
+    "name": "PEPE/USD",
     "deviationThresholdsInPercentages": [0.25, 1]
   },
   {
@@ -393,6 +401,10 @@
   },
   {
     "name": "STX/USD",
+    "deviationThresholdsInPercentages": [0.25, 1]
+  },
+  {
+    "name": "SUI/USD",
     "deviationThresholdsInPercentages": [0.25, 1]
   },
   {
