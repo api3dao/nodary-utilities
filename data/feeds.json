@@ -37,7 +37,7 @@
   },
   {
     "name": "AUD/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "AVAX/USD",
@@ -73,7 +73,7 @@
   },
   {
     "name": "BRL/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "BTC/USD",
@@ -85,11 +85,11 @@
   },
   {
     "name": "BUSD/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "CAD/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "CAKE/USD",
@@ -101,7 +101,7 @@
   },
   {
     "name": "CHF/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "CHZ/USD",
@@ -109,7 +109,7 @@
   },
   {
     "name": "CNY/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "COMP/USD",
@@ -117,7 +117,7 @@
   },
   {
     "name": "COP/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "CRO/USD",
@@ -133,7 +133,7 @@
   },
   {
     "name": "DAI/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "DOGE/USD",
@@ -161,7 +161,7 @@
   },
   {
     "name": "EUR/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "FIL/USD",
@@ -173,7 +173,7 @@
   },
   {
     "name": "FRAX/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "FTM/USD",
@@ -185,7 +185,7 @@
   },
   {
     "name": "GBP/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "GLMR/USD",
@@ -225,7 +225,7 @@
   },
   {
     "name": "INR/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "JOE/USD",
@@ -233,7 +233,7 @@
   },
   {
     "name": "JPY/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "KDA/USD",
@@ -241,7 +241,7 @@
   },
   {
     "name": "KRW/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "KSM/USD",
@@ -265,7 +265,7 @@
   },
   {
     "name": "LUSD/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "MANA/USD",
@@ -285,7 +285,7 @@
   },
   {
     "name": "MIMATIC/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "MKR/USD",
@@ -297,7 +297,7 @@
   },
   {
     "name": "MXN/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "NEAR/USD",
@@ -305,11 +305,11 @@
   },
   {
     "name": "NGN/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "NZD/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "OKB/USD",
@@ -333,7 +333,7 @@
   },
   {
     "name": "PHP/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "QUICK/USD",
@@ -369,11 +369,11 @@
   },
   {
     "name": "SEK/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "SGD/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "SHIB/USD",
@@ -409,7 +409,7 @@
   },
   {
     "name": "SUSD/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "SUSHI/USD",
@@ -417,11 +417,11 @@
   },
   {
     "name": "TRY/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "TUSD/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "UMA/USD",
@@ -433,15 +433,15 @@
   },
   {
     "name": "USDC/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "USDP/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "USDT/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "WBTC/USD",
@@ -469,7 +469,7 @@
   },
   {
     "name": "ZAR/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5]
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "ZIL/USD",
