@@ -360,6 +360,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "RUB/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "RUNE/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
