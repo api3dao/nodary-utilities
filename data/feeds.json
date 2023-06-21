@@ -1,5 +1,9 @@
 [
   {
+    "name": "AAPL/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "AAVE/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -9,6 +13,10 @@
   },
   {
     "name": "ALGO/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "AMZN/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -29,6 +37,10 @@
   },
   {
     "name": "ARB/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "ARKK/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -112,6 +124,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "COIN/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "COMP/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -192,11 +208,19 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "GME/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "GMX/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "GNO/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "GOOGL/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -229,6 +253,10 @@
   },
   {
     "name": "JOE/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "JPM/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -280,6 +308,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "META/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "METIS/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -296,6 +328,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "MSFT/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "MXN/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -304,7 +340,15 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "NFLX/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "NGN/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "NVDA/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -392,6 +436,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "SPY/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "STETH/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -421,6 +469,14 @@
   },
   {
     "name": "TRY/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "TSLA/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "TSM/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
