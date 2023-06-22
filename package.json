@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/nodaryio/utilities.git"
   },
-  "version": "0.7.0",
+  "version": "0.6.1",
   "private": false,
   "main": "src/index.js",
   "files": [
