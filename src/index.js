@@ -24,6 +24,9 @@ function computeEndpointId(endpointName) {
 
 function computeFeedId(feedName) {
   const endpointId = computeEndpointId("feed");
+  if (!nodaryFeeds.map((nodaryFeed) => nodaryFeed.name).includes(feedName)) {
+    throw new Error(`Feed with name ${feedName} does not exist`);
+  }
   const parameters = airnodeAbi.encode([
     {
       name: "name",
