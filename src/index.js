@@ -67,6 +67,11 @@ function computeSponsorWalletAddress(
       `Feed with name ${feedName} does not support deviation threshold ${deviationThreshold}`
     );
   }
+  if (deviationReference !== 0) {
+    throw new Error(
+      `Feed with name ${feedName} does not support deviation reference ${deviationReference}`
+    );
+  }
   const encodedConditionParameters = ethers.AbiCoder.defaultAbiCoder().encode(
     ["uint256", "int224", "uint256"],
     [deviationThreshold, deviationReference, heartbeatInterval]
