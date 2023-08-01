@@ -5,6 +5,10 @@ const { nodaryAirnodeAddress, nodaryXPub } = require("../data/metadata.json");
 const nodaryEndpoints = require("../data/endpoints.json");
 const nodaryFeeds = require("../data/feeds.json");
 
+function convertPercentagesToAbsoluteValues(valueInPercentages) {
+  return valueInPercentages * 1e6;
+}
+
 function computeEndpointId(endpointName) {
   const oisTitle = "Nodary";
   if (
@@ -51,6 +55,18 @@ function computeSponsorWalletAddress(
   heartbeatInterval
 ) {
   const feedId = computeFeedId(feedName);
+  if (
+    !nodaryFeeds
+      .find((nodaryFeed) => nodaryFeed.name === feedName)
+      .deviationThresholdsInPercentages.map((deviationThresholdInPercentages) =>
+        convertPercentagesToAbsoluteValues(deviationThresholdInPercentages)
+      )
+      .includes(deviationThreshold)
+  ) {
+    throw new Error(
+      `Feed with name ${feedName} does not support deviation threshold ${deviationThreshold}`
+    );
+  }
   const encodedConditionParameters = ethers.AbiCoder.defaultAbiCoder().encode(
     ["uint256", "int224", "uint256"],
     [deviationThreshold, deviationReference, heartbeatInterval]
