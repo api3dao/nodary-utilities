@@ -5,6 +5,8 @@ const { nodaryAirnodeAddress, nodaryXPub } = require("../data/metadata.json");
 const nodaryEndpoints = require("../data/endpoints.json");
 const nodaryFeeds = require("../data/feeds.json");
 
+const ONE_DAY_IN_SECONDS = 24 * 60 * 60;
+
 function convertPercentagesToAbsoluteValues(valueInPercentages) {
   return valueInPercentages * 1e6;
 }
@@ -70,6 +72,11 @@ function computeSponsorWalletAddress(
   if (deviationReference !== 0) {
     throw new Error(
       `Feed with name ${feedName} does not support deviation reference ${deviationReference}`
+    );
+  }
+  if (heartbeatInterval !== ONE_DAY_IN_SECONDS) {
+    throw new Error(
+      `Feed with name ${feedName} does not support heartbeat interval ${heartbeatInterval}`
     );
   }
   const encodedConditionParameters = ethers.AbiCoder.defaultAbiCoder().encode(
