@@ -2,10 +2,18 @@ const ethers = require("ethers");
 const airnodeAbi = require("@api3/airnode-abi");
 const { deriveWalletAddressFromSponsorAddress } = require("./airnode");
 const { nodaryAirnodeAddress, nodaryXPub } = require("../data/metadata.json");
+const nodaryEndpoints = require("../data/endpoints.json");
 const nodaryFeeds = require("../data/feeds.json");
 
 function computeEndpointId(endpointName) {
   const oisTitle = "Nodary";
+  if (
+    !nodaryEndpoints
+      .map((nodaryEndpoint) => nodaryEndpoint.name)
+      .includes(endpointName)
+  ) {
+    throw new Error(`Endpoint with name ${endpointName} does not exist`);
+  }
   return ethers.keccak256(
     ethers.AbiCoder.defaultAbiCoder().encode(
       ["string", "string"],
