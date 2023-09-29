@@ -28,7 +28,7 @@ function computeEndpointId(endpointName) {
   );
 }
 
-function computeFeedId(feedName) {
+function computeTemplateId(feedName) {
   const endpointId = computeEndpointId("feed");
   if (!nodaryFeeds.map((nodaryFeed) => nodaryFeed.name).includes(feedName)) {
     throw new Error(`Feed with name ${feedName} does not exist`);
@@ -40,13 +40,16 @@ function computeFeedId(feedName) {
       value: feedName,
     },
   ]);
-  const templateId = ethers.solidityPackedKeccak256(
+  return ethers.solidityPackedKeccak256(
     ["bytes32", "bytes"],
     [endpointId, parameters]
   );
+}
+
+function computeFeedId(feedName) {
   return ethers.solidityPackedKeccak256(
     ["address", "bytes32"],
-    [nodaryAirnodeAddress, templateId]
+    [nodaryAirnodeAddress, computeTemplateId(feedName)]
   );
 }
 
@@ -97,6 +100,7 @@ module.exports = {
   nodaryXPub,
   nodaryFeeds,
   computeEndpointId,
+  computeTemplateId,
   computeFeedId,
   computeSponsorWalletAddress,
 };
