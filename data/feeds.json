@@ -268,6 +268,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "KAVA/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "KDA/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -325,6 +329,10 @@
   },
   {
     "name": "MKR/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "MNT/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
