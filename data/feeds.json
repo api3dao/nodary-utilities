@@ -108,6 +108,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "cbETH/ETH Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "CELO/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -400,6 +404,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "rETH/ETH Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "RNDR/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -429,6 +437,10 @@
   },
   {
     "name": "SEK/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "sfrxETH/frxETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -480,6 +492,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "swETH/ETH Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "TRY/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -517,6 +533,10 @@
   },
   {
     "name": "WBTC/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "wstETH/stETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
