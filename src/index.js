@@ -4,6 +4,7 @@ const { deriveWalletAddressFromSponsorAddress } = require("./airnode");
 const { nodaryAirnodeAddress, nodaryXPub } = require("../data/metadata.json");
 const nodaryEndpoints = require("../data/endpoints.json");
 const nodaryFeeds = require("../data/feeds.json");
+const nodaryChains = require("../data/chains.json");
 
 const ONE_DAY_IN_SECONDS = 24 * 60 * 60;
 
@@ -99,6 +100,7 @@ module.exports = {
   nodaryAirnodeAddress,
   nodaryXPub,
   nodaryFeeds,
+  nodaryChains,
   computeEndpointId,
   computeTemplateId,
   computeFeedId,
