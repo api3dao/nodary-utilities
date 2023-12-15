@@ -100,10 +100,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "BUSD/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "CAD/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
