@@ -10,22 +10,13 @@ const nodaryChainAliases = require("../data/chains.json");
 const ONE_DAY_IN_SECONDS = 24 * 60 * 60;
 
 function nodaryChainIds() {
-  let mainnetChainIds = [];
-  let testnetChainIds = [];
-
   return nodaryChainAliases.map((nodaryChainAlias) => {
     const chain = CHAINS.find((chain) => chain.alias === nodaryChainAlias);
-
-    if (chain.testnet) {
-      testnetChainIds.push(chain.id);
-    } else {
-      mainnetChainIds.push(chain.id);
+    if (chain === undefined) {
+      throw new Error(`Chain ${nodaryChainAlias} does not exist`);
     }
-    return {
-      mainnet: mainnetChainIds.sort(),
-      testnet: testnetChainIds.sort(),
-    };
-  });
+    return chain.id;
+  }).sort((a, b) => a - b);
 }
 
 function convertPercentagesToAbsoluteValues(valueInPercentages) {
