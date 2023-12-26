@@ -18,7 +18,7 @@ function nodaryChainIds() {
       }
       return chain.id;
     })
-    .sort((a, b) => a - b);
+    .sort((a, b) => parseInt(a) - parseInt(b));
 }
 
 function convertPercentagesToAbsoluteValues(valueInPercentages) {
