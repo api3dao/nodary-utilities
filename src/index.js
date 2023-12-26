@@ -13,7 +13,7 @@ function nodaryChainIds() {
   return nodaryChainAliases
     .map((nodaryChainAlias) => {
       const chain = CHAINS.find((chain) => chain.alias === nodaryChainAlias);
-      if (chain === undefined) {
+      if (!chain) {
         throw new Error(`Chain ${nodaryChainAlias} does not exist`);
       }
       return chain.id;
