@@ -1,11 +1,25 @@
 const ethers = require("ethers");
 const airnodeAbi = require("@api3/airnode-abi");
+const { CHAINS } = require("@api3/chains");
 const { deriveWalletAddressFromSponsorAddress } = require("./airnode");
 const { nodaryAirnodeAddress, nodaryXPub } = require("../data/metadata.json");
 const nodaryEndpoints = require("../data/endpoints.json");
 const nodaryFeeds = require("../data/feeds.json");
+const nodaryChainAliases = require("../data/chains.json");
 
 const ONE_DAY_IN_SECONDS = 24 * 60 * 60;
+
+function nodaryChainIds() {
+  return nodaryChainAliases
+    .map((nodaryChainAlias) => {
+      const chain = CHAINS.find((chain) => chain.alias === nodaryChainAlias);
+      if (!chain) {
+        throw new Error(`Chain ${nodaryChainAlias} does not exist`);
+      }
+      return chain.id;
+    })
+    .sort((a, b) => parseInt(a) - parseInt(b));
+}
 
 function convertPercentagesToAbsoluteValues(valueInPercentages) {
   return valueInPercentages * 1e6;
@@ -99,6 +113,7 @@ module.exports = {
   nodaryAirnodeAddress,
   nodaryXPub,
   nodaryFeeds,
+  nodaryChainIds,
   computeEndpointId,
   computeTemplateId,
   computeFeedId,
