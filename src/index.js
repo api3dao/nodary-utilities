@@ -10,13 +10,15 @@ const nodaryChainAliases = require("../data/chains.json");
 const ONE_DAY_IN_SECONDS = 24 * 60 * 60;
 
 function nodaryChainIds() {
-  return nodaryChainAliases.map((nodaryChainAlias) => {
-    const chain = CHAINS.find((chain) => chain.alias === nodaryChainAlias);
-    if (chain === undefined) {
-      throw new Error(`Chain ${nodaryChainAlias} does not exist`);
-    }
-    return chain.id;
-  }).sort((a, b) => a - b);
+  return nodaryChainAliases
+    .map((nodaryChainAlias) => {
+      const chain = CHAINS.find((chain) => chain.alias === nodaryChainAlias);
+      if (chain === undefined) {
+        throw new Error(`Chain ${nodaryChainAlias} does not exist`);
+      }
+      return chain.id;
+    })
+    .sort((a, b) => a - b);
 }
 
 function convertPercentagesToAbsoluteValues(valueInPercentages) {
