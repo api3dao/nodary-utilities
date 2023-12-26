@@ -4,7 +4,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodaryio/utilities.git"
+    "url": "https://github.com/api3dao/nodary-utilities.git"
   },
   "version": "0.12.0",
   "private": false,
