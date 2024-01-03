@@ -44,6 +44,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "ASTR/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "ATOM/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -160,6 +164,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "DIS/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "DOGE/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -256,6 +264,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "HG/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "HNT/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -273,6 +285,10 @@
   },
   {
     "name": "INR/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "INTC/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -577,6 +593,10 @@
   },
   {
     "name": "USDC/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "USDe/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
