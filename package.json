@@ -17,7 +17,8 @@
     "lint": "yarn run prettier:check && yarn run lint:eslint",
     "lint:eslint": "eslint . --ext .js,.ts",
     "prettier:check": "prettier --check \"./**/*.{js,ts,md,json,sol}\"",
-    "prettier": "prettier --write \"./**/*.{js,ts,md,json,sol}\""
+    "prettier": "prettier --write \"./**/*.{js,ts,md,json,sol}\"",
+    "chains:coverage": "node -e 'console.log(require(\"./src/index\").nodaryChainIds())'"
   },
   "devDependencies": {
     "eslint": "^8.36.0",
