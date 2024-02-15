@@ -17,7 +17,8 @@
     "lint": "yarn run prettier:check && yarn run lint:eslint",
     "lint:eslint": "eslint . --ext .js,.ts",
     "prettier:check": "prettier --check \"./**/*.{js,ts,md,json,sol}\"",
-    "prettier": "prettier --write \"./**/*.{js,ts,md,json,sol}\""
+    "prettier": "prettier --write \"./**/*.{js,ts,md,json,sol}\"",
+    "chains:coverage": "node -e 'console.log(require(\"./src/index\").nodaryChainIds())'"
   },
   "devDependencies": {
     "eslint": "^8.36.0",
@@ -25,7 +26,7 @@
   },
   "dependencies": {
     "@api3/airnode-abi": "^0.10.0",
-    "@api3/chains": "^4.8.0",
+    "@api3/chains": "4.7.0",
     "ethers": "^6.1.0"
   }
 }
