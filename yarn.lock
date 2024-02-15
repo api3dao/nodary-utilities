@@ -20,10 +20,10 @@
     ethers "^5.7.2"
     lodash "^4.17.21"
 
-"@api3/chains@^4.8.0":
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/@api3/chains/-/chains-4.8.0.tgz#012319f45077063e56a1fc0906ae5516a40e411f"
-  integrity sha512-58JeZcaIktqOjvH4z9jHPIdDZZdVBh7V19bnEsljwwf0KHIVd//59w2vKVOfzi8UjuRjws00ndjq4YdRXdVjIA==
+"@api3/chains@4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@api3/chains/-/chains-4.7.0.tgz#fdb20cc61974d9498d30785a53725200551cf126"
+  integrity sha512-H40HUw7TKYC+PFGKFRpzrBnMhOz1vjK3g4oDzM1J6hMEOX2L8wlbhvP3LbDf0OUoMuLfwq7FdTPSJNDAXAOPfA==
   dependencies:
     viem "^2.7.1"
     zod "^3.22.4"
