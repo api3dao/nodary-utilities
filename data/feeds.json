@@ -220,6 +220,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "ezETH/ETH Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "FIL/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -536,6 +540,14 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "sAVAX/AVAX Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "sDAI/DAI Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "SEK/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -608,6 +620,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "sUSDe/USDe Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "SUSHI/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -664,6 +680,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "USDY/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "USDY/USD Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -689,6 +709,10 @@
   },
   {
     "name": "WTI/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "wUSDM/USDM Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
