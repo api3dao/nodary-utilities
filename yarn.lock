@@ -20,12 +20,12 @@
     ethers "^5.7.2"
     lodash "^4.17.21"
 
-"@api3/chains@^4.11.0":
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/@api3/chains/-/chains-4.11.0.tgz#d519c6a018c6737999a910301d497c743924d853"
-  integrity sha512-hEtqsn1HGMS/TfsoViIpudNy2G8DaTvbVzH1rTWSGsQRFCKc0PqNYvEAVPvEY4Aec7lM76bdf6c5HsAD4LzuIw==
+"@api3/chains@^4.13.0":
+  version "4.13.0"
+  resolved "https://registry.yarnpkg.com/@api3/chains/-/chains-4.13.0.tgz#dd9f87eee9e0d2efb628009e35e9d68660957fa8"
+  integrity sha512-MjAz/03peNiqOUqWie35mO0QihPTWYYGU+fGXTo0NkPher3bsl0EhSdxDIn4uzkRTgCskAN4jTCwGI28b70y6A==
   dependencies:
-    viem "^2.7.1"
+    viem "^2.7.18"
     zod "^3.22.4"
 
 "@eslint-community/eslint-utils@^4.2.0":
@@ -1201,10 +1201,10 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-viem@^2.7.1:
-  version "2.7.9"
-  resolved "https://registry.yarnpkg.com/viem/-/viem-2.7.9.tgz#0d2b0c4722530b53fbef449d70f0cedc1bb867b0"
-  integrity sha512-iDfc8TwaZFp1K95zlsxYh6Cs0OWCt35Tqs8uYgXKSxtz7w075mZ0H5SJ8zSyJGoEaticVDhtdmRRX6TtcW9EeQ==
+viem@^2.7.18:
+  version "2.8.5"
+  resolved "https://registry.yarnpkg.com/viem/-/viem-2.8.5.tgz#c0120e7f228fbb5be760c625bb2637c7cfa1b8df"
+  integrity sha512-EAmZ/jP7Ycmu72zRrB+N/fINEXMVBaLLsUaHwu5LoIjAzmE/f/33RV9AlhUA6RNZ5kujomylSytIyDakzQYXCQ==
   dependencies:
     "@adraffy/ens-normalize" "1.10.0"
     "@noble/curves" "1.2.0"
