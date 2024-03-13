@@ -40,6 +40,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "AR/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "ARB/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -61,6 +65,10 @@
   },
   {
     "name": "AVAX/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "AXL/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -364,6 +372,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "MANTA/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "MASK/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -444,6 +456,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "ONDO/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "OP/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -465,6 +481,10 @@
   },
   {
     "name": "PHP/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "pufETH/stETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -508,6 +528,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "RON/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "ROSE/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -545,6 +569,10 @@
   },
   {
     "name": "sDAI/DAI Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "SEI/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -601,6 +629,10 @@
   },
   {
     "name": "STONE/ETH Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "STRK/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -737,6 +769,10 @@
   },
   {
     "name": "XTZ/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "XVS/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
