@@ -1,10 +1,8 @@
 [
   "arbitrum",
-  "arbitrum-goerli-testnet",
   "avalanche",
   "avalanche-testnet",
   "base",
-  "base-goerli-testnet",
   "blast",
   "blast-sepolia-testnet",
   "bsc",
@@ -18,20 +16,15 @@
   "kava",
   "kava-testnet",
   "linea",
-  "linea-goerli-testnet",
   "mantle",
-  "mantle-goerli-testnet",
   "mantle-sepolia-testnet",
   "moonbeam",
   "moonbeam-testnet",
   "moonriver",
   "oev-network-sepolia-testnet",
   "optimism",
-  "optimism-goerli-testnet",
   "polygon",
   "polygon-testnet",
   "polygon-zkevm",
-  "polygon-zkevm-goerli-testnet",
-  "rsk",
-  "rsk-testnet"
+  "rsk"
 ]
