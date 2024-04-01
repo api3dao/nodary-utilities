@@ -420,6 +420,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "mpETH/ETH Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "MSFT/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -473,6 +477,10 @@
   },
   {
     "name": "PAXG/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "PENDLE/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -684,6 +692,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "TWT/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "UMA/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -693,6 +705,10 @@
   },
   {
     "name": "uniETH/ETH Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "USDB/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
