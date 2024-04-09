@@ -1,7 +1,9 @@
 [
+  "arbitrum-sepolia-testnet",
   "arbitrum",
   "avalanche",
   "avalanche-testnet",
+  "base-sepolia-testnet",
   "base",
   "blast",
   "blast-sepolia-testnet",
@@ -22,9 +24,11 @@
   "moonbeam-testnet",
   "moonriver",
   "oev-network-sepolia-testnet",
+  "optimism-sepolia-testnet",
   "optimism",
   "polygon",
   "polygon-testnet",
+  "polygon-zkevm-sepolia-testnet",
   "polygon-zkevm",
   "rsk"
 ]
