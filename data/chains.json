@@ -30,5 +30,7 @@
   "polygon-testnet",
   "polygon-zkevm-sepolia-testnet",
   "polygon-zkevm",
-  "rsk"
+  "rsk",
+  "x-layer-sepolia-testnet",
+  "x-layer"
 ]
