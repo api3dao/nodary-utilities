@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/api3dao/nodary-utilities.git"
   },
-  "version": "2.4.0",
+  "version": "3.0.0",
   "private": false,
   "main": "src/index.js",
   "files": [
