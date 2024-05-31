@@ -112,6 +112,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "BNBx/BNB Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "BRL/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -229,6 +233,10 @@
   },
   {
     "name": "ETH/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "ETHFI/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -636,6 +644,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "SAFE/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "SAND/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -673,6 +685,10 @@
   },
   {
     "name": "SHIB/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "slisBNB/BNB Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -825,6 +841,10 @@
   },
   {
     "name": "USDY/USD Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "wBETH/ETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
