@@ -872,6 +872,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "weETHs/ETH Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "WLD/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
