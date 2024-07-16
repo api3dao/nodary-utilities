@@ -356,6 +356,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "inETH/ETH Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "INJ/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
