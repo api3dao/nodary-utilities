@@ -320,6 +320,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "inwstETHs/wstETH Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "JOE/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -337,6 +341,10 @@
   },
   {
     "name": "KSM/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "LBTC/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
