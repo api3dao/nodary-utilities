@@ -14,5 +14,5 @@ jobs:
         run: yarn
       - name: Lint
         run: yarn lint
-      - name: Check @api3/chains coverage
+      - name: Check chain coverage of @api3/contracts
         run: yarn chains:coverage
