@@ -17,10 +17,10 @@
   resolved "https://registry.yarnpkg.com/@adraffy/ens-normalize/-/ens-normalize-1.11.0.tgz#42cc67c5baa407ac25059fcd7d405cc5ecdb0c33"
   integrity sha512-/3DDPKHqqIqxUULp8yP4zODUY1i+2xvVWsv8A79xGWdCAG+8sb0hRh0Rk2QyOJUnnbyPUAZYcpBuRe3nS2OIUg==
 
-"@api3/airnode-abi@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@api3/airnode-abi/-/airnode-abi-0.10.0.tgz#9ca9ecc561c74685004b95d4722e0acffc18aa70"
-  integrity sha512-WMquOeKHyQNNKxB2u6uA62s+DHv8/+iM/+oYTbUbfsytr7IxEj7zL3Vbhf76Xlzu9WyIzt9eecXRyY3sUb0Lew==
+"@api3/airnode-abi@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@api3/airnode-abi/-/airnode-abi-0.15.0.tgz#ab4a229adcaf30f6d659f51a791546d5eb4ab6f1"
+  integrity sha512-MMq5pBkXFA6QkqTLCWWygGXz7TdmYe8dFbgQs9IEmp0Av05U7min6rottBcRhjpOEo8LXT8InkIbdmql+UaS3A==
   dependencies:
     ethers "^5.7.2"
     lodash "^4.17.21"
