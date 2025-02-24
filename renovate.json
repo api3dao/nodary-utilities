@@ -1,0 +1,30 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["major"],
+      "groupName": "other major updates"
+    },
+    {
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "other minor updates"
+    },
+    {
+      "matchPackagePatterns": ["@api3/.*", "nodary/.*"],
+      "matchUpdateTypes": ["major"],
+      "groupName": "api3 major updates"
+    },
+    {
+      "matchPackagePatterns": ["@api3/.*", "nodary/.*"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "api3 minor updates"
+    }
+  ],
+  "rangeStrategy": "bump",
+  "lockFileMaintenance": {
+    "enabled": false
+  },
+  "reviewers": ["bdrhn9"],
+  "dependencyDashboard": false
+}
