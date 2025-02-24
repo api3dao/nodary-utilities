@@ -26,7 +26,8 @@
   },
   "dependencies": {
     "@api3/airnode-abi": "^0.10.0",
-    "@api3/chains": "^7.2.1",
-    "ethers": "^6.1.0"
+    "@api3/contracts": "^17.1.0",
+    "ethers": "^6.1.0",
+    "zod": "^3.24.2"
   }
 }

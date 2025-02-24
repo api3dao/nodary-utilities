@@ -1,6 +1,6 @@
 const ethers = require("ethers");
 const airnodeAbi = require("@api3/airnode-abi");
-const { CHAINS } = require("@api3/chains");
+const { CHAINS } = require("@api3/contracts");
 const { deriveWalletAddressFromSponsorAddress } = require("./airnode");
 const { nodaryAirnodeAddress, nodaryXPub } = require("../data/metadata.json");
 const nodaryEndpoints = require("../data/endpoints.json");
