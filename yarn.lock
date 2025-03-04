@@ -20,14 +20,15 @@
     ethers "^5.7.2"
     lodash "^4.17.21"
 
-"@api3/contracts@^17.1.0":
-  version "17.1.0"
-  resolved "https://registry.yarnpkg.com/@api3/contracts/-/contracts-17.1.0.tgz#8a839b31f1e8d9a6e19ebdc5e8452d06b067484a"
-  integrity sha512-65M8hECTpD+GsDNdP3IJL35a5DHsbubDD7nHzQjbW8Z+45xQxwxFnW2SHZvpxv/EOPl5M6h7W9cVnlD1nUKWRg==
+"@api3/contracts@^17.2.0":
+  version "17.2.0"
+  resolved "https://registry.yarnpkg.com/@api3/contracts/-/contracts-17.2.0.tgz#5786479d65c33a10a947465675e52d08099df817"
+  integrity sha512-bkqWgPzXQkT4bTKFn+gaYb3V1A22tt6N46ASt1zZJSKDfDPX2D9br3ESJVhXpJzfHAHMAP6Ytw1Py3tv0Lmt/g==
   dependencies:
     ethers "^6.13.2"
     viem "^2.23.2"
     yargs "^17.7.2"
+    zod "^3.24.2"
 
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.2.0"
