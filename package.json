@@ -21,8 +21,8 @@
     "chains:coverage": "node -e 'console.log(require(\"./src/index\").nodaryChainIds())'"
   },
   "devDependencies": {
-    "eslint": "^8.57.1",
-    "prettier": "^2.8.8"
+    "eslint": "^9.22.0",
+    "prettier": "^3.5.3"
   },
   "dependencies": {
     "@api3/airnode-abi": "^0.15.0",
