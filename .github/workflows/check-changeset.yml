@@ -1,0 +1,27 @@
+name: Check for changeset
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  require-changeset:
+    runs-on: ubuntu-latest
+    if: github.actor != 'renovate[bot]' && github.actor != 'dependabot[bot]'
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "yarn"
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Check for changeset
+        run: yarn changeset status --since=origin/main
