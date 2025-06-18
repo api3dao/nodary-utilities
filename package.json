@@ -14,6 +14,8 @@
     "src"
   ],
   "scripts": {
+    "changeset": "changeset",
+    "release": "yarn changeset publish",
     "lint": "yarn run prettier:check && yarn run lint:eslint",
     "lint:eslint": "eslint . --ext .js,.ts",
     "prettier:check": "prettier --check \"./**/*.{js,ts,md,json,sol}\"",
