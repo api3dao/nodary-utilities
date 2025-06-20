@@ -180,10 +180,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "demETH/ETH Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "DOGE/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -213,10 +209,6 @@
   },
   {
     "name": "ENS/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "ERN/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -261,10 +253,6 @@
   },
   {
     "name": "FRAX/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "FTM/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -337,10 +325,6 @@
   },
   {
     "name": "JOE/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "JUICE/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -433,10 +417,6 @@
   },
   {
     "name": "MOVR/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "mpETH/ETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -632,10 +612,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "stMATIC/MATIC Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "STONE/ETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -720,10 +696,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "USDM/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "USDP/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -777,10 +749,6 @@
   },
   {
     "name": "wstETH/stETH Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "wUSDM/USDM Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
