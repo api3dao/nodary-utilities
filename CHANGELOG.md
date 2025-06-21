@@ -1,5 +1,21 @@
 # @nodary/nodary-utilities
 
+## 6.0.0
+
+### Major Changes
+
+- a3f1151: Discontinue testnet support across all chains
+- 4cf6ed1: Retire following feeds:
+
+  - demETH/ETH Exchange Rate
+  - ERN/USD
+  - FTM/USD
+  - JUICE/USD
+  - mpETH/ETH Exchange Rate
+  - stMATIC/MATIC Exchange Rate
+  - USDM/USD
+  - wUSDM/USDM Exchange Rate
+
 ## 5.1.0
 
 ### Minor Changes
