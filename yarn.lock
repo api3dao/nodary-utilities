@@ -20,15 +20,15 @@
     ethers "^5.7.2"
     lodash "^4.17.21"
 
-"@api3/contracts@^24.0.0":
-  version "24.0.0"
-  resolved "https://registry.yarnpkg.com/@api3/contracts/-/contracts-24.0.0.tgz#d365e2e0d449042321db68ef0a277624f9effae5"
-  integrity sha512-3Ii5HBLSCH+uOBGMToy69L9O/yT36fN60nxuEm9Z8nECM6D28/elnWQQb5R6B0FGHgtpMUPpZOrqNM6AD/JdvA==
+"@api3/contracts@^26.2.1":
+  version "26.2.1"
+  resolved "https://registry.yarnpkg.com/@api3/contracts/-/contracts-26.2.1.tgz#a548d330f6ed67ec3ffa9d5db6de86491ca1f668"
+  integrity sha512-9AJA+AoipHfAf33zXY0ZDbjNq7xf53Z9itN73+7iXMWv2SW9l1q95OkYw4MsHJXG+vFUsw9SnZFEwJNo+6VnqA==
   dependencies:
     ethers "^6.13.2"
     viem "^2.23.2"
     yargs "^17.7.2"
-    zod "^3.24.2"
+    zod "^3.25.76"
 
 "@babel/runtime@^7.5.5":
   version "7.27.6"
@@ -1994,7 +1994,7 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zod@^3.24.2:
-  version "3.24.2"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.24.2.tgz#8efa74126287c675e92f46871cfc8d15c34372b3"
-  integrity sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==
+zod@^3.25.76:
+  version "3.25.76"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.76.tgz#26841c3f6fd22a6a2760e7ccb719179768471e34"
+  integrity sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==
