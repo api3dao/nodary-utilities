@@ -20,15 +20,15 @@
     ethers "^5.7.2"
     lodash "^4.17.21"
 
-"@api3/contracts@^24.0.0":
-  version "24.0.0"
-  resolved "https://registry.yarnpkg.com/@api3/contracts/-/contracts-24.0.0.tgz#d365e2e0d449042321db68ef0a277624f9effae5"
-  integrity sha512-3Ii5HBLSCH+uOBGMToy69L9O/yT36fN60nxuEm9Z8nECM6D28/elnWQQb5R6B0FGHgtpMUPpZOrqNM6AD/JdvA==
+"@api3/contracts@^35.0.0":
+  version "35.0.0"
+  resolved "https://registry.yarnpkg.com/@api3/contracts/-/contracts-35.0.0.tgz#a8096d0b36ab799991b7d4829e6195e34a9829af"
+  integrity sha512-W1UVXDA0+XyFpEclKUOxCHZr/VJH9BdZpafhwT0nGx7K/04r4SsYeH3SygAIIaoqBoslSrBNqh8oLA32fi/Q9g==
   dependencies:
-    ethers "^6.13.2"
+    ethers "^6.15.0"
     viem "^2.23.2"
     yargs "^17.7.2"
-    zod "^3.24.2"
+    zod "^4.0.15"
 
 "@babel/runtime@^7.5.5":
   version "7.27.6"
@@ -1123,10 +1123,10 @@ ethers@^5.7.2:
     "@ethersproject/web" "5.7.1"
     "@ethersproject/wordlists" "5.7.0"
 
-ethers@^6.13.2:
-  version "6.13.5"
-  resolved "https://registry.yarnpkg.com/ethers/-/ethers-6.13.5.tgz#8c1d6ac988ac08abc3c1d8fabbd4b8b602851ac4"
-  integrity sha512-+knKNieu5EKRThQJWwqaJ10a6HE9sSehGeqWN65//wE7j47ZpFhKAnHB/JJFibwwg61I/koxaPsXbXpD/skNOQ==
+ethers@^6.14.4:
+  version "6.14.4"
+  resolved "https://registry.yarnpkg.com/ethers/-/ethers-6.14.4.tgz#0f6fbc562a8425c7c888da307fa71ef796be0c04"
+  integrity sha512-Jm/dzRs2Z9iBrT6e9TvGxyb5YVKAPLlpna7hjxH7KH/++DSh2T/JVmQUv7iHI5E55hDbp/gEVvstWYXVxXFzsA==
   dependencies:
     "@adraffy/ens-normalize" "1.10.1"
     "@noble/curves" "1.2.0"
@@ -1136,10 +1136,10 @@ ethers@^6.13.2:
     tslib "2.7.0"
     ws "8.17.1"
 
-ethers@^6.14.4:
-  version "6.14.4"
-  resolved "https://registry.yarnpkg.com/ethers/-/ethers-6.14.4.tgz#0f6fbc562a8425c7c888da307fa71ef796be0c04"
-  integrity sha512-Jm/dzRs2Z9iBrT6e9TvGxyb5YVKAPLlpna7hjxH7KH/++DSh2T/JVmQUv7iHI5E55hDbp/gEVvstWYXVxXFzsA==
+ethers@^6.15.0:
+  version "6.16.0"
+  resolved "https://registry.yarnpkg.com/ethers/-/ethers-6.16.0.tgz#fff9b4f05d7a359c774ad6e91085a800f7fccf65"
+  integrity sha512-U1wulmetNymijEhpSEQ7Ct/P/Jw9/e7R1j5XIbPRydgV2DjLVMsULDlNksq3RQnFgKoLlZf88ijYtWEXcPa07A==
   dependencies:
     "@adraffy/ens-normalize" "1.10.1"
     "@noble/curves" "1.2.0"
@@ -1994,7 +1994,7 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zod@^3.24.2:
-  version "3.24.2"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.24.2.tgz#8efa74126287c675e92f46871cfc8d15c34372b3"
-  integrity sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==
+zod@^4.0.15:
+  version "4.3.6"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-4.3.6.tgz#89c56e0aa7d2b05107d894412227087885ab112a"
+  integrity sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg==
