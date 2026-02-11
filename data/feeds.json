@@ -4,23 +4,11 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "ADA/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "AERO/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "agETH/rsETH Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "ALGO/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "ANKR/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -36,15 +24,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "APT/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "apxETH/pxETH Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "AR/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -56,7 +36,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "ATOM/USD",
+    "name": "ATH/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -68,10 +48,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "AXL/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "AXS/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -80,23 +56,11 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "BAND/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "BAT/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "BERA/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "BLAST/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "BLUR/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -132,11 +96,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "CFX/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "CHZ/USD",
+    "name": "CLO/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -180,15 +140,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "DOGE/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "DOT/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "DYDX/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -200,15 +152,11 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "egETH/ETH Exchange Rate",
+    "name": "EIGEN/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "ENA/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "ENS/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -221,6 +169,10 @@
   },
   {
     "name": "ETHx/ETH Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "EUR/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -244,15 +196,19 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "FIL/USD",
+    "name": "FLOKI/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "FLOW/USD",
+    "name": "FLUID/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "FRAX/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "frxUSD/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -276,35 +232,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "GNS/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "GRT/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "HBAR/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "HNT/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "HYPE/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "ICP/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "IMX/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "inETH/ETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -312,27 +240,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "insfrxETH/sfrxETH Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "instETH/stETH Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "inwstETHs/wstETH Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "JOE/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "KAVA/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "KDA/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -348,7 +256,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "LINK/USD",
+    "name": "LINEA/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -360,27 +268,11 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "LTC/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "LUMIA/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "LUSD/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "MANA/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "MANTA/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "MASK/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -396,19 +288,15 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "METIS/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "MKR/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "MNT/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "MODE/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "Mog/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -420,19 +308,11 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "mstETH/ETH Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "MTL/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "NEAR/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "NEON/USD",
+    "name": "MVL/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -448,11 +328,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "ORDI/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "OSMO/USD",
+    "name": "osETH/ETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -464,15 +340,15 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "PEPE/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "POL/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "pufETH/stETH Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "PYTH/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -484,15 +360,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "RARI/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "RDNT/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "RENDER/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -500,7 +368,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "RIF/USD",
+    "name": "RLP/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -508,27 +376,11 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "ROSE/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "RPL/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "rsETH/ETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "RSR/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "rswETH/ETH Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "RUNE/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -537,14 +389,6 @@
   },
   {
     "name": "SAFE/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "SAND/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "SATS/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -584,11 +428,11 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "slisBNB/BNB Exchange Rate",
+    "name": "SKY/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "SNX/USD",
+    "name": "slisBNB/BNB Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -600,7 +444,15 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "spETH/ETH Exchange Rate",
+    "name": "SOMI/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "SPK/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "SPX/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -608,27 +460,11 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "STG/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "STONE/ETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "STRK/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "stTAO/TAO Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "STX/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "SUI/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -640,11 +476,15 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "SUSHI/USD",
+    "name": "swETH/ETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "swETH/ETH Exchange Rate",
+    "name": "SYRUP/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "syrupUSDC/USDC Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -652,11 +492,11 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "TAO/USD",
+    "name": "tBTC/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "TIA/USD",
+    "name": "tETH/wstETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -664,15 +504,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "TWT/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "ultraETHs/wstETH Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "UMA/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -684,7 +516,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "USDB/USD",
+    "name": "USD1/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -716,11 +548,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "VET/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "W/USD",
+    "name": "VIRTUAL/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -736,7 +564,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "weETHs/ETH Exchange Rate",
+    "name": "WELL/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -744,7 +572,11 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "WOO/USD",
+    "name": "wOS/OS Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "wsrUSD/rUSD Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -752,19 +584,11 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "XLM/USD",
+    "name": "XAUt/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "XRP/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "XTZ/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "XVS/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -780,11 +604,11 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "ZIL/USD",
+    "name": "ZK/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "ZK/USD",
+    "name": "ZKC/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -793,10 +617,6 @@
   },
   {
     "name": "ZRO/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "ZRX/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   }
 ]

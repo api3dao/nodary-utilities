@@ -1,6 +1,6 @@
 const ethers = require("ethers");
 const airnodeAbi = require("@api3/airnode-abi");
-const { CHAINS } = require("@api3/contracts");
+const { api3Contracts } = require("@api3/dapi-management");
 const { deriveWalletAddressFromSponsorAddress } = require("./airnode");
 const { nodaryAirnodeAddress, nodaryXPub } = require("../data/metadata.json");
 const nodaryEndpoints = require("../data/endpoints.json");
@@ -12,7 +12,9 @@ const ONE_DAY_IN_SECONDS = 24 * 60 * 60;
 function nodaryChainIds() {
   return nodaryChainAliases
     .map((nodaryChainAlias) => {
-      const chain = CHAINS.find((chain) => chain.alias === nodaryChainAlias);
+      const chain = api3Contracts.CHAINS.find(
+        (chain) => chain.alias === nodaryChainAlias
+      );
       if (!chain) {
         throw new Error(`Chain ${nodaryChainAlias} does not exist`);
       }
