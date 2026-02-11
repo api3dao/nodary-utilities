@@ -26,6 +26,10 @@
     "eslint": "^8.57.1",
     "prettier": "^2.8.8"
   },
+  "packageManager": "yarn@1.22.22",
+  "engines": {
+    "node": ">=22"
+  },
   "dependencies": {
     "@api3/airnode-abi": "^0.15.0",
     "@api3/dapi-management": "^4.7.0",
