@@ -14,5 +14,5 @@ jobs:
         run: yarn
       - name: Lint
         run: yarn lint
-      - name: Check chain coverage of @api3/contracts
-        run: yarn chains:coverage
+      - name: Validate @api3/dapi-management coverage
+        run: yarn validate:dapi-management-coverage

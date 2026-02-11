@@ -20,7 +20,7 @@
     "lint:eslint": "eslint . --ext .js,.ts",
     "prettier:check": "prettier --check \"./**/*.{js,ts,md,json,sol}\"",
     "prettier": "prettier --write \"./**/*.{js,ts,md,json,sol}\"",
-    "chains:coverage": "node -e 'console.log(require(\"./src/index\").nodaryChainIds())'"
+    "validate:dapi-management-coverage": "node scripts/validate-dapi-management-coverage.js"
   },
   "devDependencies": {
     "eslint": "^8.57.1",
