@@ -1,5 +1,147 @@
 # @nodary/nodary-utilities
 
+## 7.0.0
+
+### Major Changes
+
+- b98e9c6: Retire following chains:
+
+  - moonriver
+  - oev-network
+  - polygon-zkevm
+
+- e4cc1fe: Retire following feeds:
+
+  - ADA/USD
+  - ALGO/USD
+  - ANKR/USD
+  - APT/USD
+  - AR/USD
+  - ATOM/USD
+  - AXL/USD
+  - BAND/USD
+  - BAT/USD
+  - BLUR/USD
+  - CFX/USD
+  - CHZ/USD
+  - DOGE/USD
+  - DYDX/USD
+  - egETH/ETH Exchange Rate
+  - ENS/USD
+  - FIL/USD
+  - FLOW/USD
+  - GNS/USD
+  - GRT/USD
+  - HBAR/USD
+  - HNT/USD
+  - ICP/USD
+  - IMX/USD
+  - inETH/ETH Exchange Rate
+  - insfrxETH/sfrxETH Exchange Rate
+  - instETH/stETH Exchange Rate
+  - inwstETHs/wstETH Exchange Rate
+  - JOE/USD
+  - KDA/USD
+  - LINK/USD
+  - LTC/USD
+  - LUSD/USD
+  - MANA/USD
+  - MASK/USD
+  - METIS/USD
+  - MKR/USD
+  - mstETH/ETH Exchange Rate
+  - NEAR/USD
+  - NEON/USD
+  - ORDI/USD
+  - OSMO/USD
+  - PYTH/USD
+  - RARI/USD
+  - RENDER/USD
+  - RIF/USD
+  - ROSE/USD
+  - RPL/USD
+  - RSR/USD
+  - RUNE/USD
+  - SAND/USD
+  - SATS/USD
+  - SNX/USD
+  - spETH/ETH Exchange Rate
+  - STG/USD
+  - STRK/USD
+  - STX/USD
+  - SUI/USD
+  - SUSHI/USD
+  - TAO/USD
+  - TIA/USD
+  - TWT/USD
+  - UMA/USD
+  - USDB/USD
+  - VET/USD
+  - W/USD
+  - weETHs/ETH Exchange Rate
+  - WOO/USD
+  - XLM/USD
+  - XTZ/USD
+  - XVS/USD
+  - ZIL/USD
+  - ZRX/USD
+
+### Minor Changes
+
+- f3114f4: Activate following feeds:
+
+  - ATH/USD
+  - CLO/USD
+  - EIGEN/USD
+  - EUR/USD
+  - FLOKI/USD
+  - FLUID/USD
+  - frxUSD/USD
+  - LINEA/USD
+  - Mog/USD
+  - MVL/USD
+  - osETH/ETH Exchange Rate
+  - PEPE/USD
+  - RLP/USD
+  - SKY/USD
+  - SOMI/USD
+  - SPK/USD
+  - SPX/USD
+  - SYRUP/USD
+  - syrupUSDC/USDC Exchange Rate
+  - tBTC/USD
+  - tETH/wstETH Exchange Rate
+  - USD1/USD
+  - VIRTUAL/USD
+  - WELL/USD
+  - wOS/OS Exchange Rate
+  - wsrUSD/rUSD Exchange Rate
+  - XAUt/USD
+  - ZKC/USD
+
+- 913cfae: Activate following chains:
+
+  - apechain
+  - bitlayer
+  - bob
+  - core
+  - fraxtal
+  - hyperliquid
+  - injective
+  - katana
+  - manta
+  - mode
+  - ronin
+  - scroll
+  - sei
+  - somnia
+  - soneium
+  - sonic
+  - taiko
+  - unichain
+  - world
+  - zircuit
+
 ## 6.0.0
 
 ### Major Changes
