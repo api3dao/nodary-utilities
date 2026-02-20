@@ -23,12 +23,12 @@
     "validate:dapi-management-coverage": "node scripts/validate-dapi-management-coverage.js"
   },
   "devDependencies": {
-    "eslint": "^8.57.1",
-    "prettier": "^2.8.8"
+    "eslint": "^10.0.1",
+    "prettier": "^3.8.1"
   },
   "packageManager": "yarn@1.22.22",
   "engines": {
-    "node": ">=22.22.0"
+    "node": ">=24.13.1"
   },
   "dependencies": {
     "@api3/airnode-abi": "^0.15.0",
