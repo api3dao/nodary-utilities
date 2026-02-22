@@ -15,8 +15,8 @@
   ],
   "scripts": {
     "changeset": "changeset",
-    "release": "yarn changeset publish",
-    "lint": "yarn run prettier:check && yarn run lint:eslint",
+    "release": "pnpm changeset publish",
+    "lint": "pnpm run prettier:check && pnpm run lint:eslint",
     "lint:eslint": "eslint . --ext .js,.ts",
     "prettier:check": "prettier --check \"./**/*.{js,ts,md,json,sol}\"",
     "prettier": "prettier --write \"./**/*.{js,ts,md,json,sol}\"",
@@ -26,7 +26,7 @@
     "eslint": "^8.57.1",
     "prettier": "^2.8.8"
   },
-  "packageManager": "yarn@1.22.22",
+  "packageManager": "pnpm@10.26.2",
   "engines": {
     "node": ">=22.22.0"
   },
