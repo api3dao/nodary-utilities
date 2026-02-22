@@ -15,31 +15,31 @@ jobs:
       packages: write
       pull-requests: write
     steps:
-      - name: Clone repository
-        uses: actions/checkout@v4
+      - name: Clone repo
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
-
-      - uses: actions/setup-node@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+      - name: Setup Node
+        uses: actions/setup-node@v6
         with:
-          node-version: 22.22.0
-          cache: "yarn"
-
+          node-version: 22
+          cache: 'pnpm'
       - name: Install dependencies
-        run: yarn install
-
+        run: pnpm install
       - name: Ensure main is present for commit message prep
         run: |
           git checkout main
           git checkout production
       - name: Prepare commit message
         run: |
-          echo "NEW_VERSION=$(yarn changeset status --output=release.json > /dev/null && jq -r '.releases[0].newVersion' release.json && rm release.json)" >> "$GITHUB_ENV"
+          echo "NEW_VERSION=$(pnpm changeset status --output=release.json > /dev/null && jq -r '.releases[0].newVersion' release.json && rm release.json)" >> "$GITHUB_ENV"
       - name: Check release
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: yarn run release
+          publish: pnpm run release
           commit: "ci: release nodary-utilities v${{ env.NEW_VERSION }}"
           title: "ci: release nodary-utilities v${{ env.NEW_VERSION }}"
         env:
