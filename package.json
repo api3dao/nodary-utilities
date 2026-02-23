@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@api3/airnode-abi": "^0.15.0",
-    "@api3/dapi-management": "^4.7.0",
+    "@api3/dapi-management": "^4.9.0",
     "@changesets/cli": "^2.29.8",
     "ethers": "^6.16.0"
   }
