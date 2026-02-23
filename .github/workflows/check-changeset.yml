@@ -10,18 +10,18 @@ jobs:
     runs-on: ubuntu-latest
     if: github.actor != 'renovate[bot]' && github.actor != 'dependabot[bot]'
     steps:
-      - name: Clone repository
-        uses: actions/checkout@v4
+      - name: Clone repo
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
-
-      - uses: actions/setup-node@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+      - name: Setup Node
+        uses: actions/setup-node@v6
         with:
-          node-version: 22.22.0
-          cache: "yarn"
-
+          node-version: 22
+          cache: 'pnpm'
       - name: Install dependencies
-        run: yarn install
-
+        run: pnpm install --frozen-lockfile
       - name: Check for changeset
-        run: yarn changeset status --since=origin/main
+        run: pnpm changeset status --since=origin/main

@@ -1,27 +1,43 @@
 name: Continuous build
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
+      - production
+  pull_request:
 
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v2
+      - name: Clone repo
+        uses: actions/checkout@v6
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+      - name: Setup Node
+        uses: actions/setup-node@v6
         with:
-          node-version: 22.22.0
+          node-version: 22
+          cache: 'pnpm'
       - name: Install dependencies
-        run: yarn
+        run: pnpm install --frozen-lockfile
       - name: Lint
-        run: yarn lint
+        run: pnpm lint
+
   validate-coverage:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v2
+      - name: Clone repo
+        uses: actions/checkout@v6
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+      - name: Setup Node
+        uses: actions/setup-node@v6
         with:
-          node-version: 22.22.0
+          node-version: 22
+          cache: 'pnpm'
       - name: Install dependencies
-        run: yarn
+        run: pnpm install --frozen-lockfile
       - name: Validate @api3/dapi-management coverage
-        run: yarn validate:dapi-management-coverage
+        run: pnpm validate:dapi-management-coverage
