@@ -428,6 +428,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "siUSD/iUSD Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "SKY/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
