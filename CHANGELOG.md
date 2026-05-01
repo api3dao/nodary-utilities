@@ -1,5 +1,13 @@
 # @nodary/nodary-utilities
 
+## 7.1.0
+
+### Minor Changes
+
+- ef1e6b7: Activate following feeds:
+
+  - siUSD/iUSD Exchange Rate
+
 ## 7.0.0
 
 ### Major Changes
