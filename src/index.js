@@ -112,6 +112,7 @@ function computeSponsorWalletAddress(
 }
 
 module.exports = {
+  api3Contracts,
   nodaryAirnodeAddress,
   nodaryXPub,
   nodaryFeeds,
