@@ -9,6 +9,7 @@
   "version": "7.1.0",
   "private": false,
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "files": [
     "data",
     "src"
@@ -20,9 +21,11 @@
     "lint:eslint": "eslint . --ext .js,.ts",
     "prettier:check": "prettier --check \"./**/*.{js,ts,md,json,sol}\"",
     "prettier": "prettier --write \"./**/*.{js,ts,md,json,sol}\"",
+    "validate:api3-contracts-coverage": "node scripts/validate-api3-contracts-coverage.js",
     "validate:dapi-management-coverage": "node scripts/validate-dapi-management-coverage.js"
   },
   "devDependencies": {
+    "@api3/dapi-management": "^4.15.0",
     "eslint": "^8.57.1",
     "prettier": "^2.8.8"
   },
@@ -32,8 +35,8 @@
   },
   "dependencies": {
     "@api3/airnode-abi": "^0.15.0",
-    "@api3/dapi-management": "^4.15.0",
-    "@changesets/cli": "^2.30.0",
+    "@api3/contracts": "^36.0.2",
+    "@changesets/cli": "^2.31.0",
     "ethers": "^6.16.0"
   }
 }
