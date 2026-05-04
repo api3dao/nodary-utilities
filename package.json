@@ -21,6 +21,7 @@
     "lint:eslint": "eslint . --ext .js,.ts",
     "prettier:check": "prettier --check \"./**/*.{js,ts,md,json,sol}\"",
     "prettier": "prettier --write \"./**/*.{js,ts,md,json,sol}\"",
+    "validate:api3-contracts-coverage": "node scripts/validate-api3-contracts-coverage.js",
     "validate:dapi-management-coverage": "node scripts/validate-dapi-management-coverage.js"
   },
   "devDependencies": {

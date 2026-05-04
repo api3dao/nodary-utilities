@@ -39,5 +39,7 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+      - name: Validate @api3/contracts coverage
+        run: pnpm validate:api3-contracts-coverage
       - name: Validate @api3/dapi-management coverage
         run: pnpm validate:dapi-management-coverage
