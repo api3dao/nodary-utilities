@@ -23,6 +23,7 @@
     "validate:dapi-management-coverage": "node scripts/validate-dapi-management-coverage.js"
   },
   "devDependencies": {
+    "@api3/dapi-management": "^4.15.0",
     "eslint": "^8.57.1",
     "prettier": "^2.8.8"
   },
@@ -32,7 +33,7 @@
   },
   "dependencies": {
     "@api3/airnode-abi": "^0.15.0",
-    "@api3/dapi-management": "^4.15.0",
+    "@api3/contracts": "^36.0.0",
     "@changesets/cli": "^2.31.0",
     "ethers": "^6.16.0"
   }
