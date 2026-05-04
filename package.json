@@ -9,6 +9,7 @@
   "version": "7.1.0",
   "private": false,
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "files": [
     "data",
     "src"
