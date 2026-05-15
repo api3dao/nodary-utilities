@@ -25,7 +25,7 @@
     "validate:dapi-management-coverage": "node scripts/validate-dapi-management-coverage.js"
   },
   "devDependencies": {
-    "@api3/dapi-management": "^4.15.0",
+    "@api3/dapi-management": "^4.17.0",
     "eslint": "^8.57.1",
     "prettier": "^2.8.8"
   },
