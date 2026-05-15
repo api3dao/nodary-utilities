@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@api3/airnode-abi": "^0.15.0",
-    "@api3/contracts": "^36.0.2",
+    "@api3/contracts": "^38.0.0",
     "@changesets/cli": "^2.31.0",
     "ethers": "^6.16.0"
   }
