@@ -32,9 +32,9 @@
     "eslint": "^8.57.1",
     "prettier": "^2.8.8"
   },
-  "packageManager": "pnpm@10.26.2",
+  "packageManager": "pnpm@10.33.2",
   "engines": {
-    "node": ">=22.22.0"
+    "node": ">=22.22.2"
   },
   "dependencies": {
     "@api3/airnode-abi": "^0.15.0",
