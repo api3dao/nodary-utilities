@@ -21,8 +21,11 @@
     "lint:eslint": "eslint . --ext .js,.ts",
     "prettier:check": "prettier --check \"./**/*.{js,ts,md,json,sol}\"",
     "prettier": "prettier --write \"./**/*.{js,ts,md,json,sol}\"",
+    "validate": "pnpm validate:api3-contracts-coverage && pnpm validate:dapi-management-coverage && pnpm validate:data",
     "validate:api3-contracts-coverage": "node scripts/validate-api3-contracts-coverage.js",
-    "validate:dapi-management-coverage": "node scripts/validate-dapi-management-coverage.js"
+    "validate:dapi-management-coverage": "node scripts/validate-dapi-management-coverage.js",
+    "validate:data": "node scripts/validate-data.js",
+    "validate:data:fix": "node scripts/validate-data.js --write"
   },
   "devDependencies": {
     "@api3/dapi-management": "^4.17.0",

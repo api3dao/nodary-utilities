@@ -25,7 +25,7 @@ jobs:
       - name: Lint
         run: pnpm lint
 
-  validate-coverage:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Clone repo
@@ -43,3 +43,5 @@ jobs:
         run: pnpm validate:api3-contracts-coverage
       - name: Validate @api3/dapi-management coverage
         run: pnpm validate:dapi-management-coverage
+      - name: Validate data files
+        run: pnpm validate:data
