@@ -1,5 +1,13 @@
 # @nodary/nodary-utilities
 
+## 7.3.0
+
+### Minor Changes
+
+- a7efed3: Activate following feeds:
+
+  - TRX/USD
+
 ## 7.2.0
 
 ### Minor Changes
