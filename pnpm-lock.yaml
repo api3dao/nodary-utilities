@@ -12,8 +12,8 @@ importers:
         specifier: ^0.15.0
         version: 0.15.0
       '@api3/contracts':
-        specifier: ^36.0.2
-        version: 36.0.2(typescript@5.9.3)
+        specifier: ^38.0.1
+        version: 38.0.1(typescript@5.9.3)
       '@changesets/cli':
         specifier: ^2.31.0
         version: 2.31.0(@types/node@22.7.5)
@@ -81,18 +81,13 @@ packages:
     resolution: {integrity: sha512-9Bovi9tWpGVXxgkXC7YOeBXpiyWo2l8RmkHgfA9GAB4G3vZny+a8WHSQeWLNnJ4Zig7W9JTf2peExEAhhjsLjA==}
     engines: {node: '>=18.14.0'}
 
-  '@api3/contracts@36.0.2':
-    resolution: {integrity: sha512-hObRR5mXah8/HZNQ38Xkadva+pnN461Kp8VAdWA3Kwsg++/9+oAjg93UlKTBL8TV9gdeHSKKYFpJPW3SlAtRKw==}
-    engines: {node: '>=22.18.0'}
-    hasBin: true
-
   '@api3/contracts@37.0.2':
     resolution: {integrity: sha512-Qkc7ovvQ+BGoyVsRNJQXGF5beAcX5aSJxF8mcSw+olCXE1pvYNqi4KwzCX6ZEylTYe6pe9sRdBEKQDeIcaREow==}
     engines: {node: '>=22.18.0'}
     hasBin: true
 
-  '@api3/contracts@38.0.0':
-    resolution: {integrity: sha512-ZHRNmmNAqxu8GlZdQix/V4+ZGcw4OXWfLXA50X3Pz88CkGllHDM82ZkkT088yeq2ABszL8CV8tt1h53CQqnSUQ==}
+  '@api3/contracts@38.0.1':
+    resolution: {integrity: sha512-5egFKSZWGAKoXnG9hUrr85RkgxHFFxNc9W4yjNobW7/puSO9XJ6c7BUxwvQbDibKysW6LD+K8CKtJNZC+wPZAQ==}
     engines: {node: '>=22.18.0'}
     hasBin: true
 
@@ -3414,7 +3409,7 @@ snapshots:
   '@api3/api-integrations@13.1.0(eslint@8.57.1)(typescript@5.9.3)':
     dependencies:
       '@api3/airnode-abi': 0.15.0
-      '@api3/contracts': 38.0.0(typescript@5.9.3)
+      '@api3/contracts': 38.0.1(typescript@5.9.3)
       '@api3/ois': 3.0.0
       '@api3/signed-api': 4.5.0(eslint@8.57.1)(typescript@5.9.3)
       ethers: 5.8.0
@@ -3498,17 +3493,6 @@ snapshots:
       - debug
       - utf-8-validate
 
-  '@api3/contracts@36.0.2(typescript@5.9.3)':
-    dependencies:
-      ethers: 6.16.0
-      viem: 2.48.7(typescript@5.9.3)(zod@4.4.1)
-      yargs: 17.7.2
-      zod: 4.4.1
-    transitivePeerDependencies:
-      - bufferutil
-      - typescript
-      - utf-8-validate
-
   '@api3/contracts@37.0.2(typescript@5.9.3)':
     dependencies:
       ethers: 6.16.0
@@ -3520,7 +3504,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@api3/contracts@38.0.0(typescript@5.9.3)':
+  '@api3/contracts@38.0.1(typescript@5.9.3)':
     dependencies:
       ethers: 6.16.0
       viem: 2.48.7(typescript@5.9.3)(zod@4.4.1)
