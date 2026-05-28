@@ -3,8 +3,6 @@
   "arbitrum",
   "avalanche",
   "base",
-  "bitlayer",
-  "blast",
   "bob",
   "bsc",
   "core",
@@ -31,6 +29,5 @@
   "taiko",
   "unichain",
   "world",
-  "x-layer",
   "zircuit"
 ]
