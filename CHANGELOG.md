@@ -1,5 +1,21 @@
 # @nodary/nodary-utilities
 
+## 8.0.0
+
+### Major Changes
+
+- 8c5e5ad: Retire following feeds:
+
+  - EURe/USD
+  - MTL/USD
+  - RLP/USD
+
+- 30b7dae: Retire following chains:
+
+  - bitlayer
+  - blast
+  - x-layer
+
 ## 7.3.0
 
 ### Minor Changes
