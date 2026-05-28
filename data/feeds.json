@@ -180,10 +180,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "EURe/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "ezETH/ETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -308,10 +304,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "MTL/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "MVL/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -365,10 +357,6 @@
   },
   {
     "name": "rETH/ETH Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "RLP/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
