@@ -28,7 +28,7 @@
     "validate:data:fix": "node scripts/validate-data.js --write"
   },
   "devDependencies": {
-    "@api3/dapi-management": "^4.17.1",
+    "@api3/dapi-management": "^4.22.0",
     "eslint": "^8.57.1",
     "prettier": "^2.8.8"
   },
