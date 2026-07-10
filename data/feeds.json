@@ -84,6 +84,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "CASHCAT/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "cbBTC/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
