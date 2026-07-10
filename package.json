@@ -28,17 +28,17 @@
     "validate:data:fix": "node scripts/validate-data.js --write"
   },
   "devDependencies": {
-    "@api3/dapi-management": "^4.17.1",
+    "@api3/dapi-management": "^4.28.0",
     "eslint": "^8.57.1",
     "prettier": "^2.8.8"
   },
-  "packageManager": "pnpm@10.33.2",
+  "packageManager": "pnpm@10.34.4",
   "engines": {
-    "node": ">=22.22.2"
+    "node": ">=22.23.0"
   },
   "dependencies": {
     "@api3/airnode-abi": "^0.15.0",
-    "@api3/contracts": "^38.0.1",
+    "@api3/contracts": "^38.1.0",
     "@changesets/cli": "^2.31.0",
     "ethers": "^6.16.0"
   }
