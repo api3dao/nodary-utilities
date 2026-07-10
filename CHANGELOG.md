@@ -1,5 +1,17 @@
 # @nodary/nodary-utilities
 
+## 8.1.0
+
+### Minor Changes
+
+- 8bc4387: Activate following chains:
+
+  - robinhood
+
+- 8bc4387: Activate following feeds:
+
+  - CASHCAT/USD
+
 ## 8.0.0
 
 ### Major Changes
