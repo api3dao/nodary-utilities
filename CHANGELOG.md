@@ -1,5 +1,14 @@
 # @nodary/nodary-utilities
 
+## 8.2.0
+
+### Minor Changes
+
+- 736e056: Activate following feeds:
+
+  - USDG/USD
+  - VVV/USD
+
 ## 8.1.0
 
 ### Minor Changes
