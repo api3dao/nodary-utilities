@@ -528,6 +528,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "USDG/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "USDP/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -549,6 +553,10 @@
   },
   {
     "name": "VIRTUAL/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "VVV/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
