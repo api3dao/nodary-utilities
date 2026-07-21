@@ -12,8 +12,8 @@ importers:
         specifier: ^0.15.0
         version: 0.15.0
       '@api3/contracts':
-        specifier: ^38.1.0
-        version: 38.1.0(typescript@5.9.3)
+        specifier: ^38.2.0
+        version: 38.2.0(typescript@5.9.3)
       '@changesets/cli':
         specifier: ^2.31.0
         version: 2.31.0(@types/node@22.7.5)
@@ -22,8 +22,8 @@ importers:
         version: 6.17.0
     devDependencies:
       '@api3/dapi-management':
-        specifier: ^4.28.0
-        version: 4.28.0(eslint@8.57.1)(typescript@5.9.3)
+        specifier: ^4.29.0
+        version: 4.29.0(eslint@8.57.1)(typescript@5.9.3)
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -42,8 +42,8 @@ packages:
   '@api3/airnode-adapter@0.15.0':
     resolution: {integrity: sha512-F+guPjNtXpYcTzsLMalVAOEWQTyr33jdFlWp/HCZ8kMUzZzGc1QpH65eJbs+gw9dMY7SlA/CGQjgLRad+2VIGA==}
 
-  '@api3/airnode-feed@4.5.0':
-    resolution: {integrity: sha512-xOrVymA6UBNfoiU3/qrEcJEa2PyjH/tPljpuhL6ti6GlmYQC5+KEcHOvhJ6IwxcKUjJUUWDjaSpKNr/D9T38QQ==}
+  '@api3/airnode-feed@4.6.0':
+    resolution: {integrity: sha512-9ihrAwYejKZJdyR6vROTJaqiC/dW694XqV0atm1wr5ctZ8N6CikmbGUPoyOD9ssEJzTgfSTAMQM2359opdemJg==}
     engines: {node: '>=18.20.8'}
 
   '@api3/airnode-node@0.15.0':
@@ -62,8 +62,8 @@ packages:
     resolution: {integrity: sha512-VS/ZX0q6g8/kfjpKuqblXN8pAjdWG5uRpTSZ8dvgjoTi//+9DVlBan06FCvPkxMBBJjo8/Mf4xG78tRFNr0GDQ==}
     hasBin: true
 
-  '@api3/api-integrations@19.4.0':
-    resolution: {integrity: sha512-emj4uVkT8OUBiSky8736p8OXXbDabusjWguNBkgfWHHqzSMCJu0oOFRFJMxT+c0jyHcqAqaIVoP/Kn3kr37L/Q==}
+  '@api3/api-integrations@19.6.0':
+    resolution: {integrity: sha512-n7uFV3s9jWRWk/2Nks5Ea3Q4nfYzzg75MzZt4uEqT5x70AVQTc8DzEi7SH9e7qsM3lh4sp4e1xncDw+VpBRjxA==}
 
   '@api3/chains@8.1.1':
     resolution: {integrity: sha512-2woMgPksMEzH2tU7ZH5tHNHr9qbZDG+bEWcAGcs+A3/GJKNBaTmxVerIyTo4IZA9f6vN91i7fH3UPAq/S8KQDw==}
@@ -78,13 +78,13 @@ packages:
     resolution: {integrity: sha512-9Bovi9tWpGVXxgkXC7YOeBXpiyWo2l8RmkHgfA9GAB4G3vZny+a8WHSQeWLNnJ4Zig7W9JTf2peExEAhhjsLjA==}
     engines: {node: '>=18.14.0'}
 
-  '@api3/contracts@38.1.0':
-    resolution: {integrity: sha512-VgGQdgq+Jiu53eERX16+lDRCSdoZRM4khL/LmteB8j5gH5oIjYpCT1L5GQ8aTTLZKsVxmrhnvXrsrF+bM/c+WA==}
+  '@api3/contracts@38.2.0':
+    resolution: {integrity: sha512-sDLDd7g5bW9Nr7z/LLzKG/xKU3FYbu9hWIsMiuVHsaNcyunfNSVtZahd0LDgGfcQeIZyJdlr+d4JZLL587YW+w==}
     engines: {node: '>=22.18.0'}
     hasBin: true
 
-  '@api3/dapi-management@4.28.0':
-    resolution: {integrity: sha512-qeNAOZBGfCb4U5yhnvwujk02xOH/mfDHTKw7HfbxcqX9I1AbACZtLeVY1F42lO+yR80/eHYzuPtRyb82N+BrBw==}
+  '@api3/dapi-management@4.29.0':
+    resolution: {integrity: sha512-x6TqD1kG1UP+vhG1spVxAQUWFOS2P1rrNAzSgU/ON40qnepBUmJ7accz+Mevh+ymcLlOazShPhkDfLxTAJRKjw==}
 
   '@api3/ois@2.3.2':
     resolution: {integrity: sha512-hYQCbCAtWMGKV+pECRY5tbfCSOcheeo9s6wtrhn1dOWw151VeG0sKG3VbBEsyA6cvSaldewBWY3t/JGaupdThg==}
@@ -95,8 +95,8 @@ packages:
   '@api3/promise-utils@0.4.0':
     resolution: {integrity: sha512-+8fcNjjQeQAuuSXFwu8PMZcYzjwjDiGYcMUfAQ0lpREb1zHonwWZ2N0B9h/g1cvWzg9YhElbeb/SyhCrNm+b/A==}
 
-  '@api3/signed-api@4.5.0':
-    resolution: {integrity: sha512-oars7nifsyRqKORcv1LLcIhYOvk5QXe2OKuT15F/rd3yGKs0H0vNYHmG/1hx2vxJ0ZY2muxnYbRkiN4WfJg9Eg==}
+  '@api3/signed-api@4.6.0':
+    resolution: {integrity: sha512-D25clH7TiN4M+KfqX3+4iOtiDRR2mDgvlAV08MvKQ233R73onPTq4GLqNzdyslLR6xqIMpuRU9fgd/CQUCJgug==}
     engines: {node: '>=18.20.8'}
 
   '@aws-crypto/crc32@5.2.0':
@@ -3088,7 +3088,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@api3/airnode-feed@4.5.0(eslint@8.57.1)(typescript@5.9.3)':
+  '@api3/airnode-feed@4.6.0(eslint@8.57.1)(typescript@5.9.3)':
     dependencies:
       '@api3/airnode-abi': 0.15.0
       '@api3/airnode-adapter': 0.15.0
@@ -3204,12 +3204,12 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@api3/api-integrations@19.4.0(eslint@8.57.1)(typescript@5.9.3)':
+  '@api3/api-integrations@19.6.0(eslint@8.57.1)(typescript@5.9.3)':
     dependencies:
       '@api3/airnode-abi': 0.15.0
-      '@api3/contracts': 38.1.0(typescript@5.9.3)
+      '@api3/contracts': 38.2.0(typescript@5.9.3)
       '@api3/ois': 3.0.0
-      '@api3/signed-api': 4.5.0(eslint@8.57.1)(typescript@5.9.3)
+      '@api3/signed-api': 4.6.0(eslint@8.57.1)(typescript@5.9.3)
       ethers: 5.8.0
       zod: 4.4.3
     transitivePeerDependencies:
@@ -3291,7 +3291,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@api3/contracts@38.1.0(typescript@5.9.3)':
+  '@api3/contracts@38.2.0(typescript@5.9.3)':
     dependencies:
       ethers: 6.17.0
       viem: 2.52.2(typescript@5.9.3)(zod@4.4.3)
@@ -3302,11 +3302,11 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@api3/dapi-management@4.28.0(eslint@8.57.1)(typescript@5.9.3)':
+  '@api3/dapi-management@4.29.0(eslint@8.57.1)(typescript@5.9.3)':
     dependencies:
-      '@api3/api-integrations': 19.4.0(eslint@8.57.1)(typescript@5.9.3)
+      '@api3/api-integrations': 19.6.0(eslint@8.57.1)(typescript@5.9.3)
       '@api3/commons': 1.2.0
-      '@api3/contracts': 38.1.0(typescript@5.9.3)
+      '@api3/contracts': 38.2.0(typescript@5.9.3)
       ethers: 6.17.0
       zod: 4.4.3
     transitivePeerDependencies:
@@ -3334,9 +3334,9 @@ snapshots:
 
   '@api3/promise-utils@0.4.0': {}
 
-  '@api3/signed-api@4.5.0(eslint@8.57.1)(typescript@5.9.3)':
+  '@api3/signed-api@4.6.0(eslint@8.57.1)(typescript@5.9.3)':
     dependencies:
-      '@api3/airnode-feed': 4.5.0(eslint@8.57.1)(typescript@5.9.3)
+      '@api3/airnode-feed': 4.6.0(eslint@8.57.1)(typescript@5.9.3)
       '@api3/commons': 1.2.0
       '@api3/promise-utils': 0.4.0
       '@aws-sdk/client-s3': 3.1073.0
