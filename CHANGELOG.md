@@ -1,5 +1,13 @@
 # @nodary/nodary-utilities
 
+## 8.3.0
+
+### Minor Changes
+
+- c23c1d0: Activate following feeds:
+
+  - FIL/USD
+
 ## 8.2.0
 
 ### Minor Changes
