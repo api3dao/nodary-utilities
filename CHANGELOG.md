@@ -1,5 +1,26 @@
 # @nodary/nodary-utilities
 
+## 9.0.0
+
+### Major Changes
+
+- 96b9f97: Retire following feeds:
+
+  - COOK/USD
+  - ETHx/ETH Exchange Rate
+  - LBTC/USD
+  - MODE/USD
+  - MVL/USD
+  - QUICK/USD
+  - RDNT/USD
+  - SCR/USD
+  - ultraETHs/wstETH Exchange Rate
+  - USDY/USD Exchange Rate
+
+- 96b9f97: Retire following chains:
+
+  - moonbeam
+
 ## 8.3.0
 
 ### Minor Changes
