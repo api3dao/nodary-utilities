@@ -112,10 +112,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "COOK/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "CORE/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -169,10 +165,6 @@
   },
   {
     "name": "ETHFI/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "ETHx/ETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -252,10 +244,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "LBTC/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "LDO/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -296,10 +284,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "MODE/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "Mog/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -309,10 +293,6 @@
   },
   {
     "name": "MOVR/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "MVL/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -356,14 +336,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "QUICK/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "RDNT/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "rETH/ETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -389,10 +361,6 @@
   },
   {
     "name": "sAVAX/AVAX Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "SCR/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -508,10 +476,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "ultraETHs/wstETH Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "UNI/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -545,10 +509,6 @@
   },
   {
     "name": "USDT/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "USDY/USD Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
