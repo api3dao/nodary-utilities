@@ -1,5 +1,17 @@
 # @nodary/nodary-utilities
 
+## 9.1.0
+
+### Minor Changes
+
+- 745b382: Activate following feeds:
+
+  - ADA/USD
+  - DOGE/USD
+  - LTC/USD
+  - NPC/USD
+  - ZEC/USD
+
 ## 9.0.0
 
 ### Major Changes
