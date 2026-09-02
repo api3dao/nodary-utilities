@@ -4,6 +4,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "ADA/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "AERO/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -140,6 +144,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "DOGE/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "DOT/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -260,6 +268,10 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
+    "name": "LTC/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
     "name": "LUMIA/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -293,6 +305,10 @@
   },
   {
     "name": "MOVR/USD",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "NPC/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -573,6 +589,10 @@
   },
   {
     "name": "yUSD/USD Exchange Rate",
+    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
+  },
+  {
+    "name": "ZEC/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
