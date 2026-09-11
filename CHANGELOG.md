@@ -1,5 +1,14 @@
 # @nodary/nodary-utilities
 
+## 9.2.0
+
+### Minor Changes
+
+- 666757c: Activate following feeds:
+
+  - AI/USD
+  - PONS/USD
+
 ## 9.1.0
 
 ### Minor Changes
