@@ -12,8 +12,8 @@ importers:
         specifier: ^0.15.0
         version: 0.15.0
       '@api3/contracts':
-        specifier: ^41.0.0
-        version: 41.0.0(typescript@5.9.3)
+        specifier: ^41.0.1
+        version: 41.0.1(typescript@5.9.3)
       '@changesets/cli':
         specifier: ^2.31.1
         version: 2.31.1(@types/node@22.7.5)
@@ -87,8 +87,8 @@ packages:
     engines: {node: '>=22.18.0'}
     hasBin: true
 
-  '@api3/contracts@41.0.0':
-    resolution: {integrity: sha512-zBd1/G2GwsolqIbTKuD6h24BG5cmGr3yG1SLGfE0UHhVrcqKejG804JF7GN1wcdcd9rdURPUTULVagyxwMC7gw==}
+  '@api3/contracts@41.0.1':
+    resolution: {integrity: sha512-e1vxVFkU6hzqwk0lavzMKjwWo3WgMoHsSfqToCvZGNrnPenQNorhZsfBAhWTSOWRqoEyD/Dm+RnTr8g2TcCnSg==}
     engines: {node: '>=22.18.0'}
     hasBin: true
 
@@ -3252,7 +3252,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@api3/contracts@41.0.0(typescript@5.9.3)':
+  '@api3/contracts@41.0.1(typescript@5.9.3)':
     dependencies:
       ethers: 6.17.0
       viem: 2.55.19(typescript@5.9.3)(zod@4.4.3)
