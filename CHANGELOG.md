@@ -1,5 +1,40 @@
 # @nodary/nodary-utilities
 
+## 10.0.0
+
+### Major Changes
+
+- 73d06ad: Retire following feeds:
+
+  - BERA/USD
+  - BLAST/USD
+  - BNBx/BNB Exchange Rate
+  - BRETT/USD
+  - DEGEN/USD
+  - DYM/USD
+  - GHO/USD
+  - GLMR/USD
+  - LQTY/USD
+  - LUMIA/USD
+  - Mog/USD
+  - slisBNB/BNB Exchange Rate
+  - VELO/USD
+  - wBETH/ETH Exchange Rate
+  - WELL/USD
+  - wOS/OS Exchange Rate
+  - ZKC/USD
+
+- 73d06ad: Retire following chains:
+
+  - mode
+  - scroll
+
+### Minor Changes
+
+- 73d06ad: Activate following feeds:
+
+  - TTWO/USD
+
 ## 9.2.0
 
 ### Minor Changes
