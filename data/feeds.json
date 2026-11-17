@@ -64,23 +64,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "BERA/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "BLAST/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "BNB/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "BNBx/BNB Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "BRETT/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -144,19 +128,11 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "DEGEN/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "DOGE/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "DOT/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "DYM/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -200,10 +176,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "FIL/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "FLOKI/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -221,14 +193,6 @@
   },
   {
     "name": "FXS/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "GHO/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "GLMR/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -264,10 +228,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "LQTY/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "LsETH/ETH Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -276,15 +236,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "LUMIA/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "MANTA/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "MATICx/MATIC Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -300,15 +252,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "Mog/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "MORPHO/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "MOVR/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -384,10 +328,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "sAVAX/AVAX Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "scrvUSD/crvUSD Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -421,10 +361,6 @@
   },
   {
     "name": "SKY/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "slisBNB/BNB Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -528,19 +464,11 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "USDP/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "USDS/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
     "name": "USDT/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "VELO/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -552,10 +480,6 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "wBETH/ETH Exchange Rate",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "WBTC/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
@@ -564,15 +488,7 @@
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
-    "name": "WELL/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
     "name": "WLD/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "wOS/OS Exchange Rate",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
@@ -609,10 +525,6 @@
   },
   {
     "name": "ZK/USD",
-    "deviationThresholdsInPercentages": [0.25, 0.5, 1]
-  },
-  {
-    "name": "ZKC/USD",
     "deviationThresholdsInPercentages": [0.25, 0.5, 1]
   },
   {
