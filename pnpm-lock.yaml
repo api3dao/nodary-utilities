@@ -22,8 +22,8 @@ importers:
         version: 6.17.0
     devDependencies:
       '@api3/dapi-management':
-        specifier: ^4.42.0
-        version: 4.42.0(eslint@8.57.1)(typescript@5.9.3)
+        specifier: ^4.43.0
+        version: 4.43.0(eslint@8.57.1)(typescript@5.9.3)
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -83,8 +83,8 @@ packages:
     engines: {node: '>=22.18.0'}
     hasBin: true
 
-  '@api3/dapi-management@4.42.0':
-    resolution: {integrity: sha512-+dXxb1fbhAxEmTNPpByTW+GmxErXno9u5grcfuTWvuyzh+l0Jy4kpQiehY72B47vN4Ii/G65pTkJKQsMTfHhaw==}
+  '@api3/dapi-management@4.43.0':
+    resolution: {integrity: sha512-XOJ0MWWK0XxNsy9rNcVv5hK+KjTRLO/sQRIlBglfaoBxepTwfFQkxfOUE66imkkCNDI0VzBt33ztcAxG66ihTA==}
 
   '@api3/ois@2.3.2':
     resolution: {integrity: sha512-hYQCbCAtWMGKV+pECRY5tbfCSOcheeo9s6wtrhn1dOWw151VeG0sKG3VbBEsyA6cvSaldewBWY3t/JGaupdThg==}
@@ -3218,7 +3218,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@api3/dapi-management@4.42.0(eslint@8.57.1)(typescript@5.9.3)':
+  '@api3/dapi-management@4.43.0(eslint@8.57.1)(typescript@5.9.3)':
     dependencies:
       '@api3/api-integrations': 22.11.0(eslint@8.57.1)(typescript@5.9.3)
       '@api3/commons': 2.0.0
